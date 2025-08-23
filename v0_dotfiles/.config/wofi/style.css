@@ -1,0 +1,151 @@
+/* window {
+  margin: 0px;
+  background-color: #dee3e5;
+  border-radius: 12px;
+  font-family: CaskaydiaMono Nerd Font, "Inter", "Segoe UI, NotoSans Nerd Font",
+    sans-serif;
+}
+
+#outer-box {
+  margin: 0px;
+  border: none;
+  background-color: transparent;
+}
+
+#inner-box {
+  margin: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  color: #babbf1ff;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+#input {
+  padding: 4px;
+  margin: 4px;
+  padding-left: 20px;
+  border: none;
+  color: #dee3e5ff;
+  font-weight: bold;
+  outline: none;
+  border-radius: 6px;
+  margin: 10px;
+  margin-bottom: 2px;
+}
+
+#input:focus {
+  border: 1px solid #dee3e5ff;
+  margin-bottom: 0px;
+  outline: none;
+}
+
+#scroll {
+  margin-top: 5px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+#entry {
+  margin: 10px 0 0 0;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #0e1415;
+}
+
+#entry:selected {
+  border-radius: 6px;
+  background-color: #0e1415;
+}
+
+#text {
+  font-size: 16px;
+}
+
+#text:selected {
+  color: #fff;
+  margin: 0px 0px;
+  border: none;
+  border-radius: 6px;
+}
+
+#img {
+  margin-right: 20px;
+} */
+
+window {
+  margin: 0px;
+  background-color: #484a4b;
+  border-radius: 12px;
+  font-family: CaskaydiaMono Nerd Font, "Inter", "Segoe UI, NotoSans Nerd Font",
+    sans-serif;
+}
+
+#outer-box {
+  margin: 0px;
+  border: none;
+  background-color: transparent;
+}
+
+#inner-box {
+  margin: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  color: #dee3e5;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+#input {
+  background: #0e1415;
+  padding: 10px;
+  margin: 4px;
+  padding-left: 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  margin: 10px;
+  margin-bottom: 2px;
+  border: 2px solid #484a4b;
+  outline: none;
+}
+
+#input:focus {
+  border: 2px solid #dee3e5;
+  margin-bottom: 0px;
+  outline: none;
+}
+
+#scroll {
+  margin-top: 5px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+#entry {
+  margin: 10px 0 0 0;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #dee3e5;
+}
+
+#entry:selected {
+  border-radius: 6px;
+  background-color: #dee3e5;
+}
+
+#text {
+  font-size: 16px;
+}
+
+#text:selected {
+  color: #0e1415;
+  margin: 0px 0px;
+  border: none;
+  border-radius: 6px;
+}
+
+#img {
+  margin-right: 20px;
+}
