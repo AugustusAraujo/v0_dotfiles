@@ -1,0 +1,207 @@
+* {
+  font-family: CaskaydiaMono Nerd Font, "Inter", "Segoe UI, NotoSans Nerd Font",
+    sans-serif;
+  font-size: 13px;
+  min-height: 0;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+/* --- Waybar Container --- */
+#waybar {
+  background: transparent;
+  color: #dee3e5;
+  margin: 0px;
+  font-weight: 500;
+}
+
+#workspaces {
+  padding: 2px;
+  margin-left: 12px;
+  margin-top: 5px;
+  border-radius: 6px;
+  background-color: #0e1415;
+  min-height: 15px;
+  border: none;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#workspaces button {
+  color: #babbf1;
+  border-radius: 5px; /* Workspaces buttons are always rounded */
+  padding: 0.3rem 0.6rem;
+  background: transparent;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  outline: none;
+}
+
+#workspaces button.active {
+  color: #dee3e5;
+  background-color: rgba(153, 209, 219, 0.1);
+  box-shadow: inset 0 0 0 1px rgba(153, 209, 219, 0.2);
+}
+
+#workspaces button:hover {
+  color: #484a4b; /* Reference bright hover color */
+  background: #ffffff;
+}
+
+#mpris {
+  margin-top: 5px;
+  margin-left: 12px;
+  padding: 0 10px;
+  border-radius: 6px; /* This module is always rounded */
+  background-color: #0e1415;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#mpris:hover {
+  background: #ffffff;
+  color: #484a4b;
+}
+/* --- Center Module (Individual, Fully Rounded Block - With Simple Hover) --- */
+#clock {
+  background-color: #0e1415;
+  padding: 3px 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  min-width: 10px;
+  min-height: 15px;
+  border: none;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+/* Simple Hover effect for clock module - BRIGHTER COLOR */
+#clock:hover {
+  background: #ffffff;
+  color: #484a4b;
+}
+
+#custom-headset-battery {
+  background-color: #0e1415;
+  padding: 0px 10px 0 5px;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  border-radius: 5px;
+  min-width: 10px;
+  min-height: 15px;
+  margin-top: 5px;
+  margin-right: 12px;
+}
+
+#custom-headset-battery.full {
+  color: #00ff00; /* verde */
+}
+#custom-headset-battery.high {
+  color: #aaff00; /* verde-limão */
+}
+#custom-headset-battery.medium {
+  color: #ffff00; /* amarelo */
+}
+#custom-headset-battery.low {
+  color: #ff9900; /* laranja */
+}
+#custom-headset-battery.critical {
+  color: #ff0000; /* vermelho */
+}
+#custom-headset-battery.disconnected {
+  color: #888888; /* cinza */
+}
+
+#custom-dots,
+#bluetooth,
+#pulseaudio,
+#backlight,
+#network,
+#battery,
+#cpu,
+#tray {
+  background-color: #0e1415;
+  padding: 0px 20px;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  border-radius: 5px;
+  min-width: 10px;
+  min-height: 15px;
+  margin-top: 5px;
+  margin-right: 12px;
+}
+
+#custom-dots:hover,
+#tray:hover,
+#bluetooth:hover,
+#pulseaudio:hover,
+#backlight:hover,
+#network:hover,
+#battery:hover,
+#cpu:hover {
+  background: #ffffff;
+  color: #484a4b;
+}
+
+#network.disconnected {
+  color: #e78284;
+}
+
+#bluetooth {
+  color: #888888;
+}
+#bluetooth.on {
+  color: #2196f3;
+}
+#bluetooth.connected {
+  color: #99d1db;
+}
+#battery {
+  color: #99d1db;
+}
+#battery.charging {
+  color: #a6d189;
+}
+#battery.warning:not(.charging) {
+  color: #e78284;
+}
+
+#custom-power,
+#custom-quit,
+#custom-lock,
+#custom-reboot {
+  margin-left: 6px;
+  margin-top: 5px;
+  background-color: #0e1415;
+  border-radius: 6px;
+  box-shadow: none;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  padding: 0 16px;
+  color: #dee3e5;
+}
+
+#custom-power:hover,
+#custom-quit:hover,
+#custom-lock:hover,
+#custom-reboot:hover {
+  background: #ffffff;
+  color: #484a4b;
+}
+
+/* --- Tooltip Styles --- */
+tooltip {
+  background-color: #0e1415;
+  color: #dddddd;
+  padding: 5px 12px;
+  margin: 5px 0px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+}
+
+#custom-power {
+  margin-left: 12px;
+}
