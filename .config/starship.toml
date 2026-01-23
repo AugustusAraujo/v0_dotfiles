@@ -1,5 +1,34 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
+palette = 'gruvbox_dark'
+
+[palettes.gruvbox_dark]
+color_fg0 = '#dee3e5'
+color_fg1 = "#babbf1"
+color_bg1 = '#3c3836'
+color_bg3 = '#756D53'
+color_blue = '#2292A4'
+color_aqua = '#689d6a'
+color_green = '#98971a'
+color_orange = '#d65d0e'
+color_purple = '#b16286'
+color_red = '#cc241d'
+color_yellow = '#d79921'
+
+[palettes.matugen]
+color_fg0 = "#f0dfd7"
+color_fg1 = "#babbf1"
+color_bg1 = "#1a120d"
+color_bg3 = '#756D53'
+color_blue = '#2292A4'
+color_aqua = '#689d6a'
+color_green = '#98971a'
+color_orange = '#d65d0e'
+color_purple = '#b16286'
+color_red = '#cc241d'
+color_yellow = '#d79921'
+
+
 format = """
 [ ](bg:color_bg1)\
 $os\
@@ -28,20 +57,7 @@ $character"""
 
 add_newline = true
 
-palette = 'gruvbox_dark'
 
-[palettes.gruvbox_dark]
-color_fg0 = '#dee3e5'
-color_fg1 = "#babbf1"
-color_bg1 = '#3c3836'
-color_bg3 = '#756D53'
-color_blue = '#2292A4'
-color_aqua = '#689d6a'
-color_green = '#98971a'
-color_orange = '#d65d0e'
-color_purple = '#b16286'
-color_red = '#cc241d'
-color_yellow = '#d79921'
 
 [os]
 disabled = false
