@@ -1,0 +1,54 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "menus.clock.time.military": false,
+  "menus.clock.weather.location": "Los Angeles",
+  "menus.clock.weather.unit": "imperial",
+  "menus.transition": "crossfade",
+  "theme.bar.border.location": "none",
+  "scalingPriority": "gdk",
+  "theme.bar.buttons.systray.enableBorder": true,
+  "theme.matugen_settings.mode": "dark",
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "windowtitle"
+      ],
+      "middle": [],
+      "right": []
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle",
+        "media"
+      ],
+      "middle": [
+        "clock"
+      ],
+      "right": [
+        "volume",
+        "notifications",
+        "systray"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications",
+        "systray"
+      ]
+    }
+  }
+}
