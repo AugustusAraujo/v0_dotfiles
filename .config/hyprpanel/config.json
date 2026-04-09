@@ -135,5 +135,16 @@
   "bar.media.rightClick": "playerctl --player=%any,chromium play-pause",
   "bar.notifications.show_total": true,
   "bar.notifications.hideCountWhenZero": true,
-  "theme.bar.margin_top": "1px"
+  "theme.bar.margin_top": "1px",
+  "notifications.showActionsOnHover": true,
+  "theme.notification.shadowMargins": "12px 12px",
+  "theme.notification.enableShadow": true,
+  "theme.notification.shadow": "0px 1px 2px 1px #00000088",
+  "theme.bar.buttons.dashboard.icon": "#b4befe",
+  "theme.bar.buttons.dashboard.border": "#b4befe",
+  "theme.bar.buttons.battery.text": "#b4befe",
+  "theme.bar.buttons.battery.icon": "#b4befe",
+  "theme.bar.buttons.battery.border": "#b4befe",
+  "theme.bar.menus.menu.dashboard.powermenu.restart": "#62a0ea",
+  "theme.bar.menus.menu.power.buttons.restart.icon_background": "#b4befe"
 }

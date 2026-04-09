@@ -1,0 +1,7 @@
+{
+  "theme.bar.menus.menu.systray.dropdownmenu.divider": "#000000",
+  "theme.bar.menus.label": "#b4befe",
+  "theme.bar.menus.icons.active": "#b4befe",
+  "theme.bar.menus.listitems.active": "#b4befd",
+  "theme.bar.buttons.workspaces.occupied": "#1a5fb4"
+}
