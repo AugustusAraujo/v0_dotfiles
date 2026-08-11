@@ -15,7 +15,7 @@
         "more": "?",
         "nextPage": "right",
         "prevPage": "left",
-        "preview": " ",
+        "preview": "space",
         "quit": "q",
         "remove": "x",
         "selectDown": "ctrl+down",
@@ -31,5 +31,6 @@
         "scaleX": 9,
         "scaleY": 9,
         "heightCut": 2
-    }
+    },
+    "enableMouse": true
 }

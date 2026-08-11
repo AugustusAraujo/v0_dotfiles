@@ -11,6 +11,20 @@
   "theme.bar.buttons.systray.enableBorder": false,
   "theme.matugen_settings.mode": "dark",
   "bar.layouts": {
+    "0": {
+      "left": [
+        "netstat"
+      ],
+      "middle": [
+        "bluetooth",
+        "microphone",
+        "cpu"
+      ],
+      "right": [
+        "notifications",
+        "workspaces"
+      ]
+    },
     "1": {
       "left": [
         "dashboard",
@@ -22,6 +36,22 @@
       ],
       "right": [
         "volume",
+        "systray"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications",
         "systray"
       ]
     }
